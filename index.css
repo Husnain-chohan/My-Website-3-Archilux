@@ -1,0 +1,50 @@
+body{
+    background-color: purple;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+   
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid transparent;
+    background-color: aquamarine;
+    animation: animate1 4s  linear infinite;
+    transform: translate(200px);
+   
+}
+.boy{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    animation: animate 4s  linear infinite;
+}
+@keyframes animate1{
+    from{
+        transform: rotate(0);
+    }
+     to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes animate{
+    
+     0%,100%{
+        transform: translate(0,0);
+     }
+     25%{
+        transform: translate(200px,0px);
+     }
+     50%{
+        transform: translate(200px,200px);
+     }
+     75%{
+        transform: translate(0px,200px);
+     }
+
+
+}
