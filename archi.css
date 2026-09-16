@@ -55,7 +55,7 @@ transition: 1s all ease-in-out;
     margin: 0;
 }
 .sec1 .hloo{
-    background: url("archid.jpg");
+    background: url("images/archid.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
